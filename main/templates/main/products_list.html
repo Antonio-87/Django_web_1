@@ -10,7 +10,7 @@
         <h2>{{ prod.name }}</h2>
         <p>{{ prod.description }}</p>
         <p>{{ prod.price }}</p>
-        <a href="{% url 'product_details' prod.id %}"><button>Подробнее</button></a>
+        <a href="{% url 'product-details' prod.id %}"><button>Подробнее</button></a>
     {% endfor %}
 </body>
 </html>
